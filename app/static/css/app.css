@@ -1,3 +1,103 @@
 body {
     padding-top: 50px;
+	background-color:lightgray
+}
+
+.propertyform{
+	background-color:white;
+	padding:20px;
+}
+
+.details{ 
+	display: grid;
+	grid-template-columns:1fr 1fr;
+	column-gap:20px;
+}
+
+.propertybtn{
+	width:150px;
+	background-color:lightblue;
+}
+
+.icon{
+	height:18px;
+	width:18px;
+}
+
+.photo{
+	height: 220px;
+	width:350px;
+}
+
+.property{
+	background-color:white;
+}
+
+.allproperties{
+	display:grid;
+	grid-template-columns:1fr 1fr 1fr;
+	column-gap:50px;
+	row-gap:50px;
+}
+
+.pprice{
+	border-radius:20px;
+	width:100px;
+	background:#3366FF;
+	color:white;
+	text-align:center;
+}
+
+.plocation{
+	color:gray;
+}
+
+.btn{
+	width:100%;
+	background-color:#33CCCC;
+	color: white;
+}
+
+.ptitle{
+	font-size:21px;
+}
+
+.info{
+	padding:10px;
+}
+
+.btn2{
+	width:150px;
+	background-color:#33CCCC;
+	color:white;
+}
+
+.split{
+	display:grid;
+	grid-template-columns: 150px 150px;
+}
+
+.ptype{
+	text-align:center;
+	background-color:#FFCC00;
+	color:white;
+	border-radius:20px;
+	width:80px;
+}
+
+.photo2{
+	height: 350px;
+	width:500px;
+	float:left;
+}
+
+.property2{
+	display:grid;
+	grid-template-columns:1fr 1fr;
+	background-color:white;
+	margin-top:50px;
+}
+
+.propinfo{
+	padding:20px;
 }
